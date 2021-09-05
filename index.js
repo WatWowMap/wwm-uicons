@@ -1,6 +1,7 @@
 const fs = require('fs')
 
 module.exports.update = async function update() {
+  const sorter = new Intl.Collator(undefined, { numeric: true, sensitivity: 'base' })
   const checkFolders = async (folder) => {
     folder = folder.replace('//', '/')
     const files = await fs.promises.readdir(folder)
@@ -14,7 +15,7 @@ module.exports.update = async function update() {
       }
     }))
     if (!hasSubFolders) {
-      newJson = files.filter(file => file.includes('.png'))
+      newJson = files.filter(file => file.includes('.png')).sort(sorter.compare)
     }
     fs.writeFileSync(`./${folder === './' ? '' : `${folder}/`}index.json`, JSON.stringify(newJson))
     return newJson
