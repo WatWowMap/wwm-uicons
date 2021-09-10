@@ -16,8 +16,13 @@ module.exports.update = async function update() {
     }))
     if (!hasSubFolders) {
       newJson = files.filter(file => file.includes('.png')).sort(sorter.compare)
+    } else {
+      const tempJson = newJson
+      const sortedKeys = Object.keys(newJson).sort(sorter.compare)
+      newJson = {}
+      sortedKeys.forEach(key => (newJson[key] = tempJson[key]))
     }
-    fs.writeFileSync(`./${folder === './' ? '' : `${folder}/`}index.json`, JSON.stringify(newJson))
+    fs.writeFile(`./${folder === './' ? '' : `${folder}/`}index.json`, JSON.stringify(newJson, null, 2), 'utf8', () => {})
     return newJson
   }
   await checkFolders('./')
