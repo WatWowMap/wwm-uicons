@@ -1,4 +1,8 @@
 {
+  "device": [
+    "0.png",
+    "1.png"
+  ],
   "gym": [
     "0_ar.png",
     "0_b_ar.png",
@@ -238,37 +242,38 @@
   ],
   "misc": [
     "0.png",
+    "500.png",
+    "1500.png",
+    "2500.png",
+    "9000.png",
     "ar.png",
     "badge_1.png",
     "badge_2.png",
     "badge_3.png",
     "battle.png",
-    "cup.png",
     "egg.png",
     "ex.png",
     "female.png",
     "first.png",
-    "great.png",
+    "grass.png",
     "gym.png",
     "invasion.png",
     "lure.png",
     "male.png",
-    "master.png",
     "mega.png",
-    "nests.png",
-    "offline.png",
-    "online.png",
+    "nest.png",
     "pokemon.png",
     "pokestop.png",
-    "portals.png",
+    "portal.png",
     "pvp.png",
     "quest.png",
     "raid.png",
     "raid2.png",
     "second.png",
     "shadow.png",
-    "third.png",
-    "ultra.png"
+    "sparkles.png",
+    "sponsor.png",
+    "third.png"
   ],
   "nest": [
     "0.png",
@@ -4289,6 +4294,10 @@
       "808.png"
     ]
   },
+  "spawnpoint": [
+    "0.png",
+    "1.png"
+  ],
   "team": [
     "0.png",
     "1.png",
