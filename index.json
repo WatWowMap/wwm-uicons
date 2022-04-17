@@ -2711,6 +2711,8 @@
     "760.png",
     "764_s.png",
     "764.png",
+    "765_s.png",
+    "765.png",
     "782_s.png",
     "782.png",
     "783_s.png",
@@ -2797,7 +2799,9 @@
       "5_h.png",
       "5.png",
       "6_h.png",
-      "6.png"
+      "6.png",
+      "7_h.png",
+      "7.png"
     ]
   },
   "reward": {
@@ -3918,6 +3922,9 @@
       "460_a20.png",
       "460_a25.png",
       "460.png"
+    ],
+    "player_attribute": [
+      "0.png"
     ],
     "pokecoin": [
       "0.png"
