@@ -12989,6 +12989,13 @@
     "0.png",
     "1.png"
   ],
+  "tappable": [
+    "TAPPABLE_TYPE_BREAKFAST.png",
+    "TAPPABLE_TYPE_HAT.png",
+    "TAPPABLE_TYPE_MAPLE.png",
+    "TAPPABLE_TYPE_POKEBALL.png",
+    "TAPPABLE_TYPE_ROUTE_PIN.png"
+  ],
   "team": [
     "0.png",
     "1.png",
