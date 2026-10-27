@@ -15709,6 +15709,7 @@
     "1.png"
   ],
   "tappable": [
+    "TAPPABLE_TYPE_BOX.png",
     "TAPPABLE_TYPE_BREAKFAST.png",
     "TAPPABLE_TYPE_HAT.png",
     "TAPPABLE_TYPE_MAPLE.png",
